@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu:22.04
     container: registry.github.com/nilabsent/padavan-ng/blob/master/Dockerfile
     defaults: { run: { shell: bash } }
     steps:
